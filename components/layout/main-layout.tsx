@@ -14,6 +14,7 @@ export default function MainLayout({ children }: MainLayoutProps) {
             <div className="lg:border lg:rounded-md overflow-hidden flex flex-col items-center justify-start bg-container h-full w-full">
                <Header />
                <div className="overflow-auto h-[calc(100%-40px)] w-full">{children}</div>
+               {/* test */}
             </div>
          </div>
       </SidebarProvider>
